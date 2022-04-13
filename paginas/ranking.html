@@ -6,10 +6,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Ranking || Torneos LBDL</title>
-        <link rel="shortcut icon"
-                href="file:///C:/Users/pc/Desktop/Coderhouse/Desarrollo%20Web/proyectofinal/imagenes/Escudo-LBDL-2022.ico"
-                type="image/x-icon">
-        <link rel="stylesheet" href="file:///C:/Users/pc/Desktop/Coderhouse/Desarrollo%20Web/proyectofinal/style.css">
+        <link rel="shortcut icon" href="../imagenes/Escudo-LBDL-2022.ico" type="image/x-icon">
+        <link rel="stylesheet" href="../style.css">
 </head>
 
 <body>
@@ -17,9 +15,7 @@
         <header class="header">
                 <!-- Zona navegable - Menu -->
                 <nav class="tituloNav">
-                        <a href="file:///C:/Users/pc/Desktop/Coderhouse/Desarrollo%20Web/proyectofinal/index.html"
-                                class="tipografiaNav"><img
-                                        src="file:///C:/Users/pc/Desktop/Coderhouse/Desarrollo%20Web/proyectofinal/imagenes/Escudo LBDL 2022.png"
+                        <a href="../index.html" class="tipografiaNav"><img src="../imagenes/Escudo LBDL 2022.png"
                                         alt="lbdl logo" height="74" width="56"></a>
                         <a href="noticias.html" class="tipografiaNav">Noticias</a> <a href="ranking.html"
                                 class="tipografiaNav">Ranking</a> <a href="historiales.html"
@@ -34,41 +30,219 @@
                 <section id="#titulo">
                         <h1 class="tituloSecciones"><strong>RANKING</strong></h1>
                 </section>
-                <section id="#tabla">
-                        <ol class="subtituloHeader">
-                                <li><img src="file:///C:/Users/pc/Desktop/Coderhouse/Desarrollo%20Web/proyectofinal/imagenes/equiposImagenes/ESCUDO LOLO.png"
-                                                alt="" height="50" width="50">LOLO</li>
-                                <li> <img src="file:///C:/Users/pc/Desktop/Coderhouse/Desarrollo%20Web/proyectofinal/imagenes/equiposImagenes/Escudo Pipa.png"
-                                                alt="" height="50" width="50">PIPA</li>
-                                <li><img src="file:///C:/Users/pc/Desktop/Coderhouse/Desarrollo%20Web/proyectofinal/imagenes/equiposImagenes/escudo lama.png"
-                                                alt="" height="50" width="50">LAMA</li>
-                                <li><img src="file:///C:/Users/pc/Desktop/Coderhouse/Desarrollo%20Web/proyectofinal/imagenes/equiposImagenes/ESCUDO NICKY.png"
-                                                alt="" height="50" width="50">NICKY</li>
-                                <li><img src="file:///C:/Users/pc/Desktop/Coderhouse/Desarrollo%20Web/proyectofinal/imagenes/equiposImagenes/escudo tuca.png"
-                                                alt="" height="50" width="50">TUCA</li>
-                                <li><img src="file:///C:/Users/pc/Desktop/Coderhouse/Desarrollo%20Web/proyectofinal/imagenes/equiposImagenes/escudo pepo.png"
-                                                alt="" height="50" width="50">PEPO</li>
-                                <li><img src="file:///C:/Users/pc/Desktop/Coderhouse/Desarrollo%20Web/proyectofinal/imagenes/equiposImagenes/Escudo WEEDO.png"
-                                                alt="" height="50" width="50">WEEDO</li>
-                                <li><img src="file:///C:/Users/pc/Desktop/Coderhouse/Desarrollo%20Web/proyectofinal/imagenes/equiposImagenes/escudo tato.png"
-                                                alt="" height="50" width="50">TATO</li>
-                                <li><img src="file:///C:/Users/pc/Desktop/Coderhouse/Desarrollo%20Web/proyectofinal/imagenes/equiposImagenes/escudo chousky.png"
-                                                alt="" height="50" width="50">CHOUSKY</li>
-                                <li><img src="file:///C:/Users/pc/Desktop/Coderhouse/Desarrollo%20Web/proyectofinal/imagenes/equiposImagenes/eescudo piojo.png"
-                                                alt="" height="50" width="50">PIOJO</li>
-                                <li><img src="file:///C:/Users/pc/Desktop/Coderhouse/Desarrollo%20Web/proyectofinal/imagenes/equiposImagenes/ESCUDO TOBO.png"
-                                                alt="" height="50" width="50">TOBO</li>
-                                <li><img src="file:///C:/Users/pc/Desktop/Coderhouse/Desarrollo%20Web/proyectofinal/imagenes/equiposImagenes/ESCUDO COCO.png"
-                                                alt="" height="50" width="50">COCO</li>
-                        </ol>
+                <section id="#tabla" class="tablaRanking">
 
-                        <!-- Volver al Index -->
-                        <section id="#irAlInicio">
-                                <a href="file:///C:/Users/pc/Desktop/Coderhouse/Desarrollo%20Web/proyectofinal/index.html"
-                                        class="boton">Inicio</a>
-                                <p></p>
-                                <p></p>
-                        </section>
+                        <!-- #region Tabla -->
+                        <div class="rankingTextoAlternativo">POSICION</div>
+                        <div class="rankingTextoAlternativo">JUGADOR</div>
+                        <div class="rankingTextoAlternativo">PUNTOS</div>
+                        <div class="rankingTextoAlternativo">PJ</div>
+                        <div class="rankingTextoAlternativo">PG</div>
+                        <div class="rankingTextoAlternativo">PP</div>
+                        <div class="rankingTextoAlternativo">GA</div>
+                        <div class="rankingTextoAlternativo">GC</div>
+                        <div class="rankingTextoAlternativo">TJ</div>
+                        <div class="rankingTextoAlternativo">+/-</div>
+                        <!-- #endregion -->
+
+                        <!-- #region Equipo Número 1 -->
+                        <div class="rankingTexto">1</div>
+                        <div class="rankingTexto">
+                                <img src="../imagenes/equiposImagenes/ESCUDO LOLO.png" alt="LOLO" width="25"
+                                        height="25">LOLO
+                        </div>
+                        <div class="rankingTexto">48</div>
+                        <div class="rankingTexto">19</div>
+                        <div class="rankingTexto">16</div>
+                        <div class="rankingTexto">3</div>
+                        <div class="rankingTexto">54</div>
+                        <div class="rankingTexto">17</div>
+                        <div class="rankingTexto">7</div>
+                        <div class="rankingTexto">37</div>
+                        <!-- #endregion-->
+
+                        <!-- #region Equipo Número 2 -->
+                        <div class="rankingTexto">2</div>
+                        <div class="rankingTexto">
+                                <img src="../imagenes/equiposImagenes/escudo lama.png" alt="LAMA" width="25"
+                                        height="25">LAMA
+                        </div>
+                        <div class="rankingTexto">42</div>
+                        <div class="rankingTexto">20</div>
+                        <div class="rankingTexto">14</div>
+                        <div class="rankingTexto">6</div>
+                        <div class="rankingTexto">62</div>
+                        <div class="rankingTexto">31</div>
+                        <div class="rankingTexto">9</div>
+                        <div class="rankingTexto">31</div>
+                        <!-- #endregion-->
+
+                        <!-- #region Equipo Número 3 -->
+                        <div class="rankingTexto">3</div>
+                        <div class="rankingTexto">
+                                <img src="../imagenes/equiposImagenes/Escudo Pipa.png" alt="PIPA" width="25"
+                                        height="25">PIPA
+                        </div>
+                        <div class="rankingTexto">42</div>
+                        <div class="rankingTexto">21</div>
+                        <div class="rankingTexto">14</div>
+                        <div class="rankingTexto">7</div>
+                        <div class="rankingTexto">52</div>
+                        <div class="rankingTexto">29</div>
+                        <div class="rankingTexto">10</div>
+                        <div class="rankingTexto">23</div>
+                        <!-- #endregion-->
+
+                        <!-- #region Equipo Número 4 -->
+                        <div class="rankingTexto">4</div>
+                        <div class="rankingTexto">
+                                <img src="../imagenes/equiposImagenes/ESCUDO NICKY.png" alt="NICKY" width="25"
+                                        height="25">NICKY
+                        </div>
+                        <div class="rankingTexto">30</div>
+                        <div class="rankingTexto">15</div>
+                        <div class="rankingTexto">10</div>
+                        <div class="rankingTexto">5</div>
+                        <div class="rankingTexto">44</div>
+                        <div class="rankingTexto">21</div>
+                        <div class="rankingTexto">7</div>
+                        <div class="rankingTexto">23</div>
+                        <!-- #endregion-->
+
+                        <!-- #region Equipo Número 5 -->
+                        <div class="rankingTexto">5</div>
+                        <div class="rankingTexto">
+                                <img src="../imagenes/equiposImagenes/escudo tuca.png" alt="TUCA" width="25"
+                                        height="25">TUCA
+                        </div>
+                        <div class="rankingTexto">30</div>
+                        <div class="rankingTexto">20</div>
+                        <div class="rankingTexto">10</div>
+                        <div class="rankingTexto">10</div>
+                        <div class="rankingTexto">31</div>
+                        <div class="rankingTexto">35</div>
+                        <div class="rankingTexto">11</div>
+                        <div class="rankingTexto">-4</div>
+                        <!-- #endregion-->
+
+                        <!-- #region Equipo Número 6 -->
+                        <div class="rankingTexto">6</div>
+                        <div class="rankingTexto">
+                                <img src="../imagenes/equiposImagenes/escudo pepo.png" alt="PEPO" width="25"
+                                        height="25">PEPO
+                        </div>
+                        <div class="rankingTexto">27</div>
+                        <div class="rankingTexto">17</div>
+                        <div class="rankingTexto">9</div>
+                        <div class="rankingTexto">8</div>
+                        <div class="rankingTexto">31</div>
+                        <div class="rankingTexto">40</div>
+                        <div class="rankingTexto">9</div>
+                        <div class="rankingTexto">-9</div>
+                        <!-- #endregion-->
+
+                        <!-- #region Equipo Número 7 -->
+                        <div class="rankingTexto">7</div>
+                        <div class="rankingTexto">
+                                <img src="../imagenes/equiposImagenes/Escudo WEEDO.png" alt="WEEDO" width="25"
+                                        height="25">WEEDO
+                        </div>
+                        <div class="rankingTexto">24</div>
+                        <div class="rankingTexto">19</div>
+                        <div class="rankingTexto">8</div>
+                        <div class="rankingTexto">11</div>
+                        <div class="rankingTexto">32</div>
+                        <div class="rankingTexto">31</div>
+                        <div class="rankingTexto">11</div>
+                        <div class="rankingTexto">1</div>
+                        <!-- #endregion-->
+
+                        <!-- #region Equipo Número 8 -->
+                        <div class="rankingTexto">8</div>
+                        <div class="rankingTexto">
+                                <img src="../imagenes/equiposImagenes/escudo tato.png" alt="TATO" width="25"
+                                        height="25">TATO
+                        </div>
+                        <div class="rankingTexto">24</div>
+                        <div class="rankingTexto">19</div>
+                        <div class="rankingTexto">8</div>
+                        <div class="rankingTexto">11</div>
+                        <div class="rankingTexto">31</div>
+                        <div class="rankingTexto">42</div>
+                        <div class="rankingTexto">12</div>
+                        <div class="rankingTexto">-11</div>
+                        <!-- #endregion-->
+
+                        <!-- #region Equipo Número 9 -->
+                        <div class="rankingTexto">9</div>
+                        <div class="rankingTexto">
+                                <img src="../imagenes/equiposImagenes/escudo chousky.png" alt="CHOUSKY" width="25"
+                                        height="25">CHOUSKY
+                        </div>
+                        <div class="rankingTexto">18</div>
+                        <div class="rankingTexto">16</div>
+                        <div class="rankingTexto">6</div>
+                        <div class="rankingTexto">11</div>
+                        <div class="rankingTexto">34</div>
+                        <div class="rankingTexto">48</div>
+                        <div class="rankingTexto">11</div>
+                        <div class="rankingTexto">-14</div>
+                        <!-- #endregion-->
+
+                        <!-- #region Equipo Número 10 -->
+                        <div class="rankingTexto">10</div>
+                        <div class="rankingTexto">
+                                <img src="../imagenes/equiposImagenes/eescudo piojo.png" alt="PIOJO" width="25"
+                                        height="25">PIOJO
+                        </div>
+                        <div class="rankingTexto">9</div>
+                        <div class="rankingTexto">9</div>
+                        <div class="rankingTexto">3</div>
+                        <div class="rankingTexto">6</div>
+                        <div class="rankingTexto">15</div>
+                        <div class="rankingTexto">29</div>
+                        <div class="rankingTexto">6</div>
+                        <div class="rankingTexto">-14</div>
+                        <!-- #endregion-->
+
+                        <!-- #region Equipo Número 11 -->
+                        <div class="rankingTexto">11</div>
+                        <div class="rankingTexto">
+                                <img src="../imagenes/equiposImagenes/ESCUDO TOBO.png" alt="TOBO" width="25"
+                                        height="25">TOBO
+                        </div>
+                        <div class="rankingTexto">9</div>
+                        <div class="rankingTexto">14</div>
+                        <div class="rankingTexto">3</div>
+                        <div class="rankingTexto">11</div>
+                        <div class="rankingTexto">14</div>
+                        <div class="rankingTexto">40</div>
+                        <div class="rankingTexto">11</div>
+                        <div class="rankingTexto">-26</div>
+                        <!-- #endregion-->
+
+                        <!-- #region Equipo Número 12 -->
+                        <div class="rankingTexto">12</div>
+                        <div class="rankingTexto">
+                                <img src="../imagenes/equiposImagenes/ESCUDO COCO.png" alt="COCO" width="25"
+                                        height="25">COCO
+                        </div>
+                        <div class="rankingTexto">6</div>
+                        <div class="rankingTexto">12</div>
+                        <div class="rankingTexto">2</div>
+                        <div class="rankingTexto">10</div>
+                        <div class="rankingTexto">7</div>
+                        <div class="rankingTexto">29</div>
+                        <div class="rankingTexto">10</div>
+                        <div class="rankingTexto">-22</div>
+                        <!-- #endregion-->
+
+                </section>
+                <!-- Volver al Index -->
+                <section id="#irAlInicio">
+                        <a href="../index.html" class="boton">Inicio</a>
+                        <p></p>
+                        <p></p>
                 </section>
         </main>
 
@@ -76,20 +250,15 @@
 
         <!-- Pie de la página -->
         <footer class="footer">
-                <img src="file:///C:/Users/pc/Desktop/Coderhouse/Desarrollo%20Web/proyectofinal/imagenes/Escudo LBDL 2022.png"
-                        alt="lbdl logo" height="148" width="112">
+                <img src="../imagenes/Escudo LBDL 2022.png" alt="lbdl logo" height="148" width="112">
                 <a href="https://www.instagram.com/torneoslbdl/" target="_blank" class="inline"><img
-                                src="file:///C:/Users/pc/Desktop/Coderhouse/Desarrollo%20Web/proyectofinal/imagenes/redesIconos/Instagram.png"
-                                alt="IG" height="50" width="50"></a>
+                                src="../imagenes/redesIconos/Instagram.png" alt="IG" height="50" width="50"></a>
                 <a href="https://www.twitch.tv/torneoslbdl" target="_blank" class="inline"><img
-                                src="file:///C:/Users/pc/Desktop/Coderhouse/Desarrollo%20Web/proyectofinal/imagenes/redesIconos/Twitch.png"
-                                alt="TW" height="50" width="50"></a>
+                                src="../imagenes/redesIconos/Twitch.png" alt="TW" height="50" width="50"></a>
                 <a href="https://www.youtube.com/channel/UCPs5MmZa5FEL7X4Wj0BdZAg" target="_blank" class="inline"><img
-                                src="file:///C:/Users/pc/Desktop/Coderhouse/Desarrollo%20Web/proyectofinal/imagenes/redesIconos/Youtube.png"
-                                alt="YT" height="50" width="65"></a>
+                                src="../imagenes/redesIconos/Youtube.png" alt="YT" height="50" width="65"></a>
                 <a href="https://github.com/lorenzocaramaschi" target="_blank" class="inline"><img
-                                src="file:///C:/Users/pc/Desktop/Coderhouse/Desarrollo%20Web/proyectofinal/imagenes/redesIconos/Github.png"
-                                alt="GH" height="50" width="65"></a>
+                                src="../imagenes/redesIconos/Github.png" alt="GH" height="50" width="65"></a>
 
                 <ul class="inline"> <strong>Navegación</strong>
                         <li><a href="noticias.html">Noticias</a></li>
