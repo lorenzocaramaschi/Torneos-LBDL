@@ -2,6 +2,17 @@
     padding: 0;
     margin: 0;
 }
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+}
+
+.navegador {
+    padding: 0;
+    margin: 0;
+}
 
 .tituloNav {
     background-color: #AE84D9;
@@ -69,17 +80,17 @@
     color: white;
     font-size: 1.5rem;
     text-decoration: none;
-    background-image: linear-gradient(to right,#AE84D9,#613d85 );
+    background-image: linear-gradient(to right, #AE84D9, #613d85);
     padding: 1rem 1rem 1rem 1rem;
     text-align: center;
-    
+
 }
 
-.animacionBoton{
+.animacionBoton {
     transition: 1s;
 }
 
-.animacionBoton:hover{
+.animacionBoton:hover {
     transform: scale(0.97);
 }
 
@@ -359,9 +370,7 @@
         font-size: 2rem;
     }
 
-    .blancoTexto {
-
-    }
+    .blancoTexto {}
 
     .subtituloHeader {
         font-size: 0.875rem;
