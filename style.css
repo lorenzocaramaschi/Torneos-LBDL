@@ -7,6 +7,10 @@ a{
     text-decoration: none;
 }
 
+body{
+    padding-bottom: 0;
+}
+
 .navegador {
     padding: 0;
     margin: 0;
@@ -70,6 +74,9 @@ a{
     background-size: cover;
 }
 
+.mb-4{
+    margin-bottom: -1.5rem !important;
+}
 
 .fondoSecciones {
     padding: 3rem 3rem 3rem 3rem;
@@ -366,8 +373,7 @@ a{
     }
 
     .fondoIndex {
-        padding: 9.5rem 9.5rem 9.5rem 9.5rem;
-        background: no-repeat center/100% url("imagenes/bgIndex.png");
+    
     }
 
     .tituloHeader {
