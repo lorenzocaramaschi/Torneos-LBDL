@@ -74,6 +74,14 @@ body {
     background-size: cover;
 }
 
+.tablaBS{
+    background-color: #C3CFD9;
+    font-size: 1rem;
+    color: #2E3E4A;
+    padding: 3rem;
+    margin-bottom: 2rem;
+}
+
 .mb-4 {
     margin-bottom: -1.5rem !important;
 }
