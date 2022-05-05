@@ -20,14 +20,27 @@
     <!-- Encabezado -->
     <header class="header indexZ">
         <!-- Zona navegable - Menu -->
-        <nav class="tituloNav">
-            <a href="../index.html" class="tipografiaNav"><img src="../imagenes/Escudo LBDL 2022.png" alt="lbdl logo"
-                    height="74" width="56"></a>
-            <a href="noticias.html" class="tipografiaNav">Noticias</a> <a href="ranking.html"
-                class="tipografiaNav">Ranking</a> <a href="historiales.html" class="tipografiaNav">Historiales</a> <a
-                href="reglamento.html" class="tipografiaNav">Reglamento</a> <a href="redes.html"
-                class="tipografiaNav">Redes</a>
+        <nav class="navbar navbar-expand-lg navbar-light navegador">
+            <div class="container-fluid tituloNav">
+                <a class="navbar-brand logo" href="../index.html"><img src="../imagenes/Escudo LBDL 2022.png"
+                        alt="lbdl logo" height="74" width="56"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse show justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav tipografiaNav">
+                        <a class="nav-link active text-white" href="../paginas/noticias.html">Noticias</a>
+                        <a class="nav-link active text-white" href="../paginas/ranking.html">Ranking</a>
+                        <a class="nav-link active text-white" href="../paginas/historiales.html">Historiales</a>
+                        <a class="nav-link active text-white" href="../paginas/reglamento.html">Reglamento</a>
+                        <a class="nav-link active text-white" href="../paginas/redes.html">Redes</a>
+                    </div>
+                </div>
+            </div>
         </nav>
+
     </header>
     <!-- Main engloba el contenido ppal -->
     <main class="fondoSecciones">
@@ -38,50 +51,58 @@
                 contenido para que
                 puedas disfrutarlo al máximo por múltiples plataformas.</p>
         </section>
-
-        <section id="#redes">
-            <h3 class="subtituloHeader animate__animated animate__fadeIn">Instagram</h3>
-            <a href="https://www.instagram.com/torneoslbdl/" target="_blank"><img
-                    src="../imagenes/redesIconos/Instagram.png" alt="IG" height="100" width="100"></a>
-            <p class="textoParrafo textoParrafoRedesMobile">La mayoria del contenido que se sube de Torneos LBDL lo vas
-                a encontrar en
-                Instagram, así que muy
-                recomendable seguirla para estar actualizado.</p>
-            <h3 class="subtituloHeader animate__animated animate__fadeIn">Youtube</h3>
-            <a href="https://www.youtube.com/channel/UCPs5MmZa5FEL7X4Wj0BdZAg" target="_blank"><img
-                    src="../imagenes/redesIconos/Youtube.png" alt="IG" height="80" width="130"></a>
-            <p class="textoParrafo textoParrafoRedesMobile">¡Seguinos en YouTube para visualizar todos los partidos! Si
-                te perdiste alguno ahí
-                los vas a poder
-                encontrar todos, además tambien vas a poder presenciar en vivo los partidos de los Torneos Oficiales de
-                La Banda del Lobo.</p>
-            <iframe class="bordeIframes fondoMarcoYT" width="560" height="315"
-                src="https://www.youtube.com/embed/egd_c1qJTjQ" title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            <h3 class="subtituloHeader animate__animated animate__fadeIn">Twitch</h3>
-            <a href="https://www.twitch.tv/torneoslbdl" target="_blank"><img src="../imagenes/redesIconos/Twitch.png"
-                    alt="TW" height="100" width="100"></a>
-            <p class="textoParrafo textoParrafoRedesMobile">En nuestro canal de Twitch se realizan distintos eventos
-                semanalmente, como
-                entrevistas a los jugadores,
-                sorteos de los torneos y muchas cosas más. ¡Dejanos tu follow!</p>
-            <iframe class="bordeIframes fondoMarcoTW"
-                src="https://player.twitch.tv/loluza_=https://www.twitch.tv/torneoslbdl" height="315" width="560"
-                allowfullscreen>
-            </iframe>
-        </section>
-        <!-- Volver al Index -->
-        <section id="#irAlInicio">
-            <div class="animacionBoton">
-                <a href="../index.html" class="boton">Inicio</a>
-                <p></p>
-                <p></p>
+        
+        <!-- #region Carrusel -->
+    <div>
+        <div id="carouselWithCaptions" class="carousel slide pointer-event" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#carouselWithCaptions" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carouselWithCaptions" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carouselWithCaptions" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="https://www.instagram.com/torneoslbdl/" target="_blank"><img
+                        src="../imagenes/redesIconos/fondoInstagram.png" class="d-block w-100" alt="Slide 1">
+                    <div class="carousel-caption d-none d-sm-block">
+                </a>
+                <h5>¡Seguinos en Instagram!</h5>
+                <p>Para enterarte de los últimos eventos dentro de torneoslbdl.</p>
             </div>
-        </section>
+        </div>
+        <div class="carousel-item">
+            <a href="https://www.twitch.tv/torneoslbdl" target="_blank"><img src="../imagenes/redesIconos/fondoTwitch.png"
+                    class="d-block w-100" alt="Slide 2">
+                <div class="carousel-caption d-none d-sm-block">
+            </a>
+            <h5>¡Seguinos en Twitch!</h5>
+            <p>Para poder ver los mejores eventos en vivo dentro de torneoslbdl.</p>
+        </div>
+    </div>
+    <div class="carousel-item">
+        <a href="https://www.youtube.com/channel/UCPs5MmZa5FEL7X4Wj0BdZAg" target="_blank"><img
+                src="../imagenes/redesIconos/fondoYouTube.png" class="d-block w-100" alt="Slide 3"></a>
+
+        <div class="carousel-caption d-none d-sm-block">
+            <h5>¡Suscribite en YouTube!</h5>
+            <p>Donde vas a encontrar todos los partidos resumidos.</p>
+        </div>
+    </div>
+    
+    <a class="carousel-control-prev" href="#carouselWithCaptions" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselWithCaptions" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </a>
+</div>
+    <!-- #endregion -->
+
+        
     </main>
 
-    </section>
     <!-- Pie de la página -->
     <footer class="footer">
         <img class="imageFooterLogo" src="../imagenes/Escudo LBDL 2022.png" alt="lbdl logo" height="148" width="112">
@@ -95,11 +116,11 @@
                 src="../imagenes/redesIconos/Github.png" alt="GH" height="50" width="65"></a>
 
         <ul class="inline"> <strong>Navegación</strong>
-            <li><a href="noticias.html">Noticias</a></li>
-            <li><a href="ranking.html">Ranking</a></li>
-            <li><a href="historiales.html">Historiales</a></li>
-            <li><a href="reglamento.html">Reglamento</a></li>
-            <li><a href="redes.html">Redes</a></li>
+            <li><a class="text-reset" href="noticias.html">Noticias</a></li>
+            <li><a class="text-reset" href="ranking.html">Ranking</a></li>
+            <li><a class="text-reset" href="historiales.html">Historiales</a></li>
+            <li><a class="text-reset" href="reglamento.html">Reglamento</a></li>
+            <li><a class="text-reset" href="redes.html">Redes</a></li>
         </ul>
 
         <ul class="inline">
@@ -107,6 +128,11 @@
             <li>torneoslbdl@gmail.com</li>
         </ul>
     </footer>
+
+    <!-- Scripts Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

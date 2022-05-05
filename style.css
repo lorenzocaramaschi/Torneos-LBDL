@@ -3,6 +3,15 @@
     margin: 0;
 }
 
+a{
+    text-decoration: none;
+}
+
+.navegador {
+    padding: 0;
+    margin: 0;
+}
+
 .tituloNav {
     background-color: #AE84D9;
     color: white;
@@ -54,8 +63,13 @@
 
 .fondoIndex {
     padding: 15rem 15rem 15rem 15rem;
-    background: no-repeat center/100% url("imagenes/bgIndex.png");
+    background-image: url("imagenes/bgIndex.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
 }
+
 
 .fondoSecciones {
     padding: 3rem 3rem 3rem 3rem;
@@ -69,17 +83,17 @@
     color: white;
     font-size: 1.5rem;
     text-decoration: none;
-    background-image: linear-gradient(to right,#AE84D9,#613d85 );
+    background-image: linear-gradient(to right, #AE84D9, #613d85);
     padding: 1rem 1rem 1rem 1rem;
     text-align: center;
-    
+
 }
 
-.animacionBoton{
+.animacionBoton {
     transition: 1s;
 }
 
-.animacionBoton:hover{
+.animacionBoton:hover {
     transform: scale(0.97);
 }
 
@@ -93,6 +107,7 @@
     text-decoration: none;
     align-items: flex-end;
     justify-content: space-around;
+    margin-top: 0;
 }
 
 .inline {
@@ -359,9 +374,7 @@
         font-size: 2rem;
     }
 
-    .blancoTexto {
-
-    }
+    .blancoTexto {}
 
     .subtituloHeader {
         font-size: 0.875rem;
