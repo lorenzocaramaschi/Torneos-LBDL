@@ -3,11 +3,11 @@
     margin: 0;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-body{
+body {
     padding-bottom: 0;
 }
 
@@ -70,11 +70,11 @@ body{
     background-image: url("imagenes/bgIndex.png");
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment:fixed;
+    background-attachment: fixed;
     background-size: cover;
 }
 
-.mb-4{
+.mb-4 {
     margin-bottom: -1.5rem !important;
 }
 
@@ -372,9 +372,7 @@ body{
         font-size: 1.33rem;
     }
 
-    .fondoIndex {
-    
-    }
+    .fondoIndex {}
 
     .tituloHeader {
         font-size: 2rem;
