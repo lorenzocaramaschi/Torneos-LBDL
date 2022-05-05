@@ -2,11 +2,9 @@
     padding: 0;
     margin: 0;
 }
+
 a{
     text-decoration: none;
-}
-a:hover{
-    color: black;
 }
 
 .navegador {
@@ -65,8 +63,13 @@ a:hover{
 
 .fondoIndex {
     padding: 15rem 15rem 15rem 15rem;
-    background: no-repeat center/100% url("imagenes/bgIndex.png");
+    background-image: url("imagenes/bgIndex.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
 }
+
 
 .fondoSecciones {
     padding: 3rem 3rem 3rem 3rem;
@@ -104,6 +107,7 @@ a:hover{
     text-decoration: none;
     align-items: flex-end;
     justify-content: space-around;
+    margin-top: 0;
 }
 
 .inline {
