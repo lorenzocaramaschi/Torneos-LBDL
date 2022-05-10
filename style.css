@@ -93,6 +93,15 @@ body {
     flex-direction: column;
 }
 
+.subtitulo-equipos{
+    font-family: "theboldfont";
+    color: #2E3E4A;
+    font-size: 1.75rem;
+    padding: 1rem;
+    margin: 1rem 1rem 1rem 0;
+    text-decoration: none;
+}
+
 .boton {
     font-family: "theboldfont";
     color: white;
@@ -106,6 +115,13 @@ body {
 
 .animacionBoton {
     transition: 1s;
+       
+}
+
+.extra-animacion-equipos{
+    padding: 1rem;
+    margin-left: 0rem;
+    background-color: #dfe6ed;
 }
 
 .animacionBoton:hover {
@@ -123,6 +139,20 @@ body {
     align-items: flex-end;
     justify-content: space-around;
     margin-top: 0;
+}
+
+.info-club{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+}
+
+.equipo-rival{
+    list-style: none;
+    font-family: "theboldfont";
+    color: #2E3E4A;
+    font-size: 1rem;
 }
 
 .inline {
@@ -176,6 +206,12 @@ body {
 
 }
 
+.titulo-rival{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 .rankingTexto {
     font-size: 1rem;
     font-family: "theboldfont";
@@ -226,7 +262,13 @@ body {
 }
 
 .indexZ {
-    z-index: 2;
+    z-index: 10;
+}
+
+.item-lista-torneos{
+    font-family: "theboldfont";
+    font-size: 1.25rem;
+    list-style:square;
 }
 
 .imageFooter {
@@ -244,8 +286,21 @@ body {
     width: 9rem;
 }
 
+.accordion-button:not(.collapsed) {
+    color: #2e3e4a;
+    background-color: #ffffff;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+
 /* #region Media Queries */
 /* 1-Mobile */
+@media (max-width: 550px){
+    body footer ul{
+        display: none !important;
+    }
+
+}
+
 
 @media (max-width: 450px) {
     .contenedor {
@@ -258,6 +313,7 @@ body {
         grid-column: span 1;
         grid-row: span 1;
     }
+
 
     .header {}
 
