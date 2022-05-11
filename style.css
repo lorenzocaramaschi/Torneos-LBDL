@@ -247,6 +247,11 @@ body {
 
 .galeria-items {
     position: relative;
+    transition: opacity 0.4s, transform 0.4s;
+}
+
+.galeria-items:hover{
+    transform: scale(1.03);
 }
 
 .texto-equipos {
