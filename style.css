@@ -16,7 +16,7 @@ body {
     margin: 0;
 }
 
-.tituloNav {
+.titulo-nav {
     background-color: #AE84D9;
     color: white;
     display: flex;
@@ -29,7 +29,7 @@ body {
     src: url('fuentes/theboldfont.ttf');
 }
 
-.tipografiaNav {
+.tipografia-nav {
     font-family: "theboldfont";
     color: white;
     margin: 1rem 1rem 1rem 1rem;
@@ -44,19 +44,19 @@ body {
     justify-content: flex-start;
 }
 
-.tituloHeader {
+.titulo-header {
     font-family: "theboldfont";
     color: #2E3E4A;
     font-size: 4rem;
 }
 
-.tituloSecciones {
+.titulo-secciones {
     font-family: "theboldfont";
     color: #2E3E4A;
     font-size: 3rem;
 }
 
-.subtituloHeader {
+.subtitulo-header {
     font-family: "theboldfont";
     color: #2E3E4A;
     font-size: 1.75rem;
@@ -65,7 +65,7 @@ body {
     text-decoration: none;
 }
 
-.fondoIndex {
+.fondo-index {
     padding: 15rem 15rem 15rem 15rem;
     background-image: url("imagenes/bgIndex.png");
     background-position: center center;
@@ -74,7 +74,7 @@ body {
     background-size: cover;
 }
 
-.tablaBS{
+.tabla-bs {
     background-color: #C3CFD9;
     font-size: 1rem;
     color: #2E3E4A;
@@ -86,14 +86,14 @@ body {
     margin-bottom: -1.5rem !important;
 }
 
-.fondoSecciones {
+.fondo-secciones {
     padding: 3rem 3rem 3rem 3rem;
     background-color: #DFE6ED;
     display: flex;
     flex-direction: column;
 }
 
-.subtitulo-equipos{
+.subtitulo-equipos {
     font-family: "theboldfont";
     color: #2E3E4A;
     font-size: 1.75rem;
@@ -113,18 +113,18 @@ body {
 
 }
 
-.animacionBoton {
+.animacion-boton {
     transition: 1s;
-       
+
 }
 
-.extra-animacion-equipos{
+.extra-animacion-equipos {
     padding: 1rem;
     margin-left: 0rem;
     background-color: #dfe6ed;
 }
 
-.animacionBoton:hover {
+.animacion-boton:hover {
     transform: scale(0.97);
 }
 
@@ -141,14 +141,14 @@ body {
     margin-top: 0;
 }
 
-.info-club{
+.info-club {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     padding: 1rem;
 }
 
-.equipo-rival{
+.equipo-rival {
     list-style: none;
     font-family: "theboldfont";
     color: #2E3E4A;
@@ -165,7 +165,7 @@ body {
     justify-content: flex-start;
 }
 
-.textoParrafo {
+.texto-parrafo {
     color: #2E3E4A;
     font-size: 1rem;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -173,7 +173,7 @@ body {
     margin: 1rem 1rem 1rem 1rem;
 }
 
-.bordeIframes {
+.borde-iframes {
     border: solid 0.5rem #2E3E4A;
     margin-bottom: 2rem;
 }
@@ -183,19 +183,19 @@ body {
     top: 0;
 }
 
-.blancoTexto {
+.blanco-texto {
     color: white;
 }
 
-.listaSinEstilo {
+.lista-sin-estilo {
     list-style: none;
 }
 
-.flexStart {
+.flex-start {
     justify-content: flex-start;
 }
 
-.tablaRanking {
+.tabla-ranking {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(13, 1fr);
@@ -206,13 +206,13 @@ body {
 
 }
 
-.titulo-rival{
+.titulo-rival {
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
-.rankingTexto {
+.ranking-texto {
     font-size: 1rem;
     font-family: "theboldfont";
     color: #2E3E4A;
@@ -220,7 +220,7 @@ body {
     background-color: #C3CFD9;
 }
 
-.rankingTextoAlternativo {
+.ranking-texto-alternativo {
     font-size: 1rem;
     font-family: "theboldfont";
     color: white;
@@ -236,7 +236,7 @@ body {
     margin-bottom: 2.33rem;
 }
 
-.galeriaImagen {
+.galeria-imagen {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -245,11 +245,11 @@ body {
     box-shadow: 10px 10px 15px -5px #7f5ea0;
 }
 
-.galeriaItems {
+.galeria-items {
     position: relative;
 }
 
-.textoEquipos {
+.texto-equipos {
     position: absolute;
     bottom: 0;
     color: white;
@@ -261,27 +261,27 @@ body {
     font-size: 20px;
 }
 
-.indexZ {
+.index-z {
     z-index: 10;
 }
 
-.item-lista-torneos{
+.item-lista-torneos {
     font-family: "theboldfont";
     font-size: 1.25rem;
-    list-style:square;
+    list-style: square;
 }
 
-.imageFooter {
+.image-footer {
     height: 3rem;
     width: 3rem;
 }
 
-.imageFooterYT {
+.image-footer-yt {
     height: 3rem;
     width: 4rem;
 }
 
-.imageFooterLogo {
+.image-footer-logo {
     height: 10rem;
     width: 9rem;
 }
@@ -294,8 +294,8 @@ body {
 
 /* #region Media Queries */
 /* 1-Mobile */
-@media (max-width: 550px){
-    body footer ul{
+@media (max-width: 550px) {
+    body footer ul {
         display: none !important;
     }
 
@@ -309,7 +309,7 @@ body {
         grid-auto-rows: 220px;
     }
 
-    .galeriaItems {
+    .galeria-items {
         grid-column: span 1;
         grid-row: span 1;
     }
@@ -317,29 +317,29 @@ body {
 
     .header {}
 
-    .tituloNav {}
+    .titulo-nav {}
 
     .logo {}
 
-    .tipografiaNav {
+    .tipografia-nav {
         font-size: 0.75rem;
         margin: 0.45rem;
     }
 
-    .fondoIndex {
+    .fondo-index {
         padding: 11.5rem 5rem 11.5rem 5rem;
         background: no-repeat center/100% url("imagenes/bgIndex.png");
         align-items: center;
         background-size: cover;
     }
 
-    .tituloHeader {
+    .titulo-header {
         font-size: 1.5rem;
     }
 
-    .blancoTexto {}
+    .blanco-texto {}
 
-    .subtituloHeader {
+    .subtitulo-header {
         font-size: 1rem;
         padding: 0.5rem 0.5rem 0.5rem 0;
         margin: 0.5rem 0.5rem 0.5rem 0;
@@ -361,26 +361,26 @@ body {
         margin: 0.25rem 0.25rem 0.25rem 0.25rem;
     }
 
-    .imageFooter {
+    .image-footer {
         height: 0.75rem;
         width: 0.75rem;
     }
 
-    .imageFooterYT {
+    .image-footer-yt {
         height: 0.75rem;
         width: 1rem;
     }
 
-    .imageFooterLogo {
+    .image-footer-logo {
         height: 2.5rem;
         width: 2.25rem;
     }
 
-    .rankingTexto {
+    .ranking-texto {
         font-size: 0.70rem;
     }
 
-    .tablaRanking {
+    .tabla-ranking {
         display: grid;
         grid-template-columns: repeat(10, 1fr);
         grid-template-rows: repeat(13, 1fr);
@@ -390,23 +390,23 @@ body {
         align-self: center;
     }
 
-    .fondoSecciones {
+    .fondo-secciones {
         padding-top: 0;
     }
 
-    .rankingTextoAlternativo {}
+    .ranking-texto-alternativo {}
 
-    .fondoMarcoYT {
+    .fondo-marco-yt {
         width: 22rem;
         height: 15rem;
     }
 
-    .fondoMarcoTW {
+    .fondo-marco-tw {
         width: 22rem;
         height: 15rem;
     }
 
-    .textoParrafoRedesMobile {
+    .texto-parrafos-redes-mobile {
         padding-left: 0;
         margin-left: 0;
     }
@@ -421,30 +421,30 @@ body {
         grid-auto-rows: 220px;
     }
 
-    .galeriaItems {
+    .galeria-items {
         grid-column: span 1;
         grid-row: span 1;
     }
 
     .header {}
 
-    .tituloNav {}
+    .titulo-nav {}
 
     .logo {}
 
-    .tipografiaNav {
+    .tipografia-nav {
         font-size: 1.33rem;
     }
 
-    .fondoIndex {}
+    .fondo-index {}
 
-    .tituloHeader {
+    .titulo-header {
         font-size: 2rem;
     }
 
-    .blancoTexto {}
+    .blanco-texto {}
 
-    .subtituloHeader {
+    .subtitulo-header {
         font-size: 0.875rem;
     }
 
@@ -464,26 +464,26 @@ body {
         margin: 0.5rem 0.5rem 0.5rem 0.5rem;
     }
 
-    .imageFooter {
+    .image-footer {
         height: 1.5rem;
         width: 1.5rem;
     }
 
-    .imageFooterYT {
+    .image-footer-yt {
         height: 1.5rem;
         width: 2rem;
     }
 
-    .imageFooterLogo {
+    .image-footer-logo {
         height: 5rem;
         width: 4.5rem;
     }
 
-    .rankingTexto {
+    .ranking-texto {
         font-size: 0.70rem;
     }
 
-    .rankingTextoAlternativo {}
+    .ranking-texto-alternativo {}
 
 
 }
