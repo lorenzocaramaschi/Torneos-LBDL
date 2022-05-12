@@ -26,7 +26,7 @@ body {
 
 @font-face {
     font-family: "theboldfont";
-    src: url('fuentes/theboldfont.ttf');
+    src: url('../fuentes/theboldfont.ttf');
 }
 
 .tipografia-nav {
@@ -67,7 +67,7 @@ body {
 
 .fondo-index {
     padding: 15rem 15rem 15rem 15rem;
-    background-image: url("imagenes/bgIndex.png");
+    background-image: url("../imagenes/bgIndex.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -333,7 +333,7 @@ body {
 
     .fondo-index {
         padding: 11.5rem 5rem 11.5rem 5rem;
-        background: no-repeat center/100% url("imagenes/bgIndex.png");
+        background: no-repeat center/100% url("../imagenes/bgIndex.png");
         align-items: center;
         background-size: cover;
     }

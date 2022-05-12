@@ -1,0 +1,53 @@
+main {
+    section {
+        h3 {
+            font-family: "theboldfont";
+            color: #2E3E4A;
+            font-size: 1.75rem;
+            padding: 1rem 1rem 1rem 0;
+            margin: 1rem 1rem 1rem 0;
+            text-decoration: none;
+        }
+    }
+}
+
+
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 300px;
+    gap: 15px;
+    margin-bottom: 2.33rem;
+
+    .galeria-items {
+        position: relative;
+        transition: opacity 0.4s, transform 0.4s;
+
+        &:hover {
+            transform: scale(1.03);
+        }
+
+        a {
+            .galeria-imagen {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                -webkit-box-shadow: 10px 10px 15px -5px #7f5ea0;
+                -moz-box-shadow: 10px 10px 15px -5px #7f5ea0;
+                box-shadow: 10px 10px 15px -5px #7f5ea0;
+            }
+
+            h2 {
+                position: absolute;
+                bottom: 0;
+                color: white;
+                background-color: #ae84d9ab;
+                font-family: "theboldfont";
+                width: 99%;
+                padding: 5px 0;
+                padding-left: 5px;
+                font-size: 20px;
+            }
+        }
+    }
+}

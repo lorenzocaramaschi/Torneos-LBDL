@@ -1,0 +1,263 @@
+header {
+  z-index: 10;
+  position: sticky;
+  top: 0;
+}
+header nav {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+header nav .titulo-nav {
+  background-color: #AE84D9;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+header nav .titulo-nav a {
+  margin: 1rem 1rem 1rem 1rem;
+  text-decoration: none;
+  justify-content: flex-start;
+}
+header nav div .tipografia-nav {
+  font-family: "theboldfont";
+  color: white;
+  margin: 1rem 1rem 1rem 1rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  justify-content: flex-end;
+}
+
+main .fondo-index {
+  padding: 15rem 15rem 15rem 15rem;
+  background-image: url("../imagenes/bgIndex.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin-bottom: -3.5rem !important;
+}
+main .fondo-index section {
+  font-family: "theboldfont";
+  color: #2E3E4A;
+  font-size: 4rem;
+}
+main .fondo-index section h1 {
+  color: white;
+}
+main .fondo-index section h3 {
+  font-family: "theboldfont";
+  color: white;
+  font-size: 1.75rem;
+  padding: 1rem 1rem 1rem 0;
+  margin: 1rem 1rem 1rem 0;
+  text-decoration: none;
+}
+main article .animacion-boton {
+  transition: 1s;
+}
+main article .animacion-boton:hover {
+  transform: scale(0.97);
+}
+main article .animacion-boton a {
+  font-family: "theboldfont";
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+  background-image: linear-gradient(to right, #AE84D9, #613d85);
+  padding: 1rem 1rem 1rem 1rem;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  background-color: #C3CFD9;
+  list-style: none;
+  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+  text-decoration: none;
+  align-items: flex-end;
+  justify-content: space-around;
+  margin-top: 0;
+}
+footer .image-footer-logo {
+  height: 10rem;
+  width: 9rem;
+}
+footer a {
+  font-family: "theboldfont";
+  color: #2E3E4A;
+  display: inline-block;
+  margin: 1rem 1rem 1rem 1rem;
+  text-decoration: none;
+  list-style: none;
+  justify-content: flex-start;
+}
+footer a .image-footer {
+  height: 3rem;
+  width: 3rem;
+}
+footer a {
+  font-family: "theboldfont";
+  color: #2E3E4A;
+  display: inline-block;
+  margin: 0rem;
+  text-decoration: none;
+  list-style: none;
+  justify-content: flex-start;
+}
+footer a .image-footer-yt {
+  height: 3rem;
+  width: 4rem;
+}
+footer ul {
+  font-family: "theboldfont";
+  color: #2E3E4A;
+  display: inline-block;
+  margin: 1rem 1rem 1rem 1rem;
+  text-decoration: none;
+  list-style: none;
+  justify-content: flex-start;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "theboldfont";
+  src: url("../fuentes/theboldfont.ttf");
+}
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.fondo-secciones {
+  padding: 3rem 3rem 3rem 3rem;
+  background-color: #DFE6ED;
+  display: flex;
+  flex-direction: column;
+}
+.fondo-secciones section h1 {
+  font-family: "theboldfont";
+  color: #2E3E4A;
+  font-size: 3rem;
+}
+.fondo-secciones section p {
+  font-family: "theboldfont";
+  color: #2E3E4A;
+  font-size: 1.75rem;
+  padding: 1rem 1rem 1rem 0;
+  margin: 1rem 1rem 1rem 0;
+  text-decoration: none;
+}
+.fondo-secciones section .animacion-boton {
+  transition: 1s;
+}
+.fondo-secciones section .animacion-boton:hover {
+  transform: scale(0.97);
+}
+.fondo-secciones section .animacion-boton a {
+  font-family: "theboldfont";
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+  background-image: linear-gradient(to right, #AE84D9, #613d85);
+  padding: 1rem 1rem 1rem 1rem;
+  text-align: center;
+}
+
+table {
+  background-color: #C3CFD9;
+  font-size: 1rem;
+  color: #2E3E4A;
+  padding: 3rem;
+  margin-bottom: 2rem;
+}
+table thead tr {
+  font-size: 1rem;
+  font-family: "theboldfont";
+  color: white;
+  border: solid 0.1rem #2E3E4A;
+  background-color: #AE84D9;
+}
+table thead tr th {
+  font-size: 1rem;
+  font-family: "theboldfont";
+  color: white;
+  border: solid 0.1rem #2E3E4A;
+  background-color: #AE84D9;
+}
+table tbody tr td {
+  font-size: 1rem;
+  font-family: "theboldfont";
+  color: #2E3E4A;
+  border: solid 0.1rem #2E3E4A;
+  background-color: #C3CFD9;
+}
+
+main section h3 {
+  font-family: "theboldfont";
+  color: #2E3E4A;
+  font-size: 1.75rem;
+  padding: 1rem 1rem 1rem 0;
+  margin: 1rem 1rem 1rem 0;
+  text-decoration: none;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 300px;
+  gap: 15px;
+  margin-bottom: 2.33rem;
+}
+.contenedor .galeria-items {
+  position: relative;
+  transition: opacity 0.4s, transform 0.4s;
+}
+.contenedor .galeria-items:hover {
+  transform: scale(1.03);
+}
+.contenedor .galeria-items a .galeria-imagen {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  -webkit-box-shadow: 10px 10px 15px -5px #7f5ea0;
+  -moz-box-shadow: 10px 10px 15px -5px #7f5ea0;
+  box-shadow: 10px 10px 15px -5px #7f5ea0;
+}
+.contenedor .galeria-items a h2 {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  background-color: rgba(174, 132, 217, 0.6705882353);
+  font-family: "theboldfont";
+  width: 99%;
+  padding: 5px 0;
+  padding-left: 5px;
+  font-size: 20px;
+}
+
+.texto-parrafo {
+  color: #2E3E4A;
+  font-size: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 0 0 1.66rem 0;
+  margin: 0;
+}
+
+section h2 {
+  font-family: "theboldfont";
+  color: #2E3E4A;
+  font-size: 1.75rem;
+  padding: 1rem 1rem 1rem 0;
+  margin: 1rem 1rem 1rem 0;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */

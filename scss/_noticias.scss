@@ -1,0 +1,45 @@
+
+    .fondo-secciones {
+        padding: 3rem 3rem 3rem 3rem;
+        background-color: #DFE6ED;
+        display: flex;
+        flex-direction: column;
+
+
+        section {
+            h1 {
+                font-family: "theboldfont";
+                color: #2E3E4A;
+                font-size: 3rem;
+            }
+
+            p {
+                font-family: "theboldfont";
+                color: #2E3E4A;
+                font-size: 1.75rem;
+                padding: 1rem 1rem 1rem 0;
+                margin: 1rem 1rem 1rem 0;
+                text-decoration: none;
+            }
+        }
+
+        section {
+            .animacion-boton {
+                transition: 1s;
+
+                &:hover {
+                    transform: scale(0.97);
+                }
+
+                a {
+                    font-family: "theboldfont";
+                    color: white;
+                    font-size: 1.5rem;
+                    text-decoration: none;
+                    background-image: linear-gradient(to right, #AE84D9, #613d85);
+                    padding: 1rem 1rem 1rem 1rem;
+                    text-align: center;
+                }
+            }
+        }
+    }

@@ -1,0 +1,37 @@
+table {
+    background-color: #C3CFD9;
+    font-size: 1rem;
+    color: #2E3E4A;
+    padding: 3rem;
+    margin-bottom: 2rem;
+
+    thead {
+        tr {
+            font-size: 1rem;
+            font-family: "theboldfont";
+            color: white;
+            border: solid 0.10rem #2E3E4A;
+            background-color: #AE84D9;
+
+            th {
+                font-size: 1rem;
+                font-family: "theboldfont";
+                color: white;
+                border: solid 0.10rem #2E3E4A;
+                background-color: #AE84D9;
+            }
+        }
+    }
+
+    tbody {
+        tr {
+            td {
+                font-size: 1rem;
+                font-family: "theboldfont";
+                color: #2E3E4A;
+                border: solid 0.10rem #2E3E4A;
+                background-color: #C3CFD9;
+            }
+        }
+    }
+}
