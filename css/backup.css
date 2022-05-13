@@ -319,13 +319,6 @@ body {
         grid-row: span 1;
     }
 
-
-    .header {}
-
-    .titulo-nav {}
-
-    .logo {}
-
     .tipografia-nav {
         font-size: 0.75rem;
         margin: 0.45rem;
@@ -341,8 +334,6 @@ body {
     .titulo-header {
         font-size: 1.5rem;
     }
-
-    .blanco-texto {}
 
     .subtitulo-header {
         font-size: 1rem;
@@ -399,8 +390,6 @@ body {
         padding-top: 0;
     }
 
-    .ranking-texto-alternativo {}
-
     .fondo-marco-yt {
         width: 22rem;
         height: 15rem;
@@ -430,25 +419,13 @@ body {
         grid-column: span 1;
         grid-row: span 1;
     }
-
-    .header {}
-
-    .titulo-nav {}
-
-    .logo {}
-
     .tipografia-nav {
         font-size: 1.33rem;
     }
 
-    .fondo-index {}
-
     .titulo-header {
         font-size: 2rem;
     }
-
-    .blanco-texto {}
-
     .subtitulo-header {
         font-size: 0.875rem;
     }
@@ -487,10 +464,6 @@ body {
     .ranking-texto {
         font-size: 0.70rem;
     }
-
-    .ranking-texto-alternativo {}
-
-
 }
 
 /* desktop */
