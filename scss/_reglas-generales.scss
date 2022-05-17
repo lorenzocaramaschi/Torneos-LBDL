@@ -1,18 +1,30 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-@font-face{
-    font-family:"theboldfont";
+@font-face {
+    font-family: "theboldfont";
     src: url('../fuentes/theboldfont.ttf');
     font-display: swap;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-ul{
+ul {
     list-style: none;
+}
+
+h1 {
+    @media (max-width: 450px) {
+        font-size: 2.4rem !important;
+    }
+}
+
+.subtitulo-header{
+    @media (max-width: 450px) {
+        font-size: 1rem !important;
+    }
 }
