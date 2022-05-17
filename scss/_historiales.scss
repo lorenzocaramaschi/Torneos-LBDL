@@ -1,12 +1,11 @@
+@import'operadores/extend';
+@import'operadores/mapas';
+
 main {
     section {
         h3 {
-            font-family: "theboldfont";
-            color: #2E3E4A;
-            font-size: 1.75rem;
-            padding: 1rem 1rem 1rem 0;
-            margin: 1rem 1rem 1rem 0;
-            text-decoration: none;
+            @extend %estilo-titulos;
+            color: map-get($color, gris-oscuro);
         }
     }
 }
@@ -40,9 +39,9 @@ main {
             h2 {
                 position: absolute;
                 bottom: 0;
-                color: white;
-                background-color: #ae84d9ab;
-                font-family: "theboldfont";
+                color: map-get($color, blanco);
+                background-color: map-get($color, violeta);
+                font-family: map-get($font-family, font1);
                 width: 99%;
                 padding: 5px 0;
                 padding-left: 5px;

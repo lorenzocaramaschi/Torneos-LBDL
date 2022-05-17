@@ -1,24 +1,26 @@
+@import'operadores/mapas';
+
 table {
-    background-color: #C3CFD9;
+    background-color: map-get($color, blanco-2);
     font-size: 1rem;
-    color: #2E3E4A;
-    padding: 3rem;
+    color: map-get($color, gris-oscuro);
+    padding: map-get($padding, p3);
     margin-bottom: 2rem;
 
     thead {
         tr {
             font-size: 1rem;
-            font-family: "theboldfont";
-            color: white;
+            font-family: map-get($font-family, font1);
+            color: map-get($color, blanco);
             border: solid 0.10rem #2E3E4A;
-            background-color: #AE84D9;
+            background-color: map-get($color, rosa);
 
             th {
                 font-size: 1rem;
-                font-family: "theboldfont";
-                color: white;
+                font-family: map-get($font-family, font1);
+                color: map-get($color, blanco);
                 border: solid 0.10rem #2E3E4A;
-                background-color: #AE84D9;
+                background-color: map-get($color, rosa);
             }
         }
     }
@@ -27,10 +29,10 @@ table {
         tr {
             td {
                 font-size: 1rem;
-                font-family: "theboldfont";
-                color: #2E3E4A;
+                font-family: map-get($font-family, font1);
+                color: map-get($color, gris-oscuro);
                 border: solid 0.10rem #2E3E4A;
-                background-color: #C3CFD9;
+                background-color: map-get($color, blanco-2);
             }
         }
     }

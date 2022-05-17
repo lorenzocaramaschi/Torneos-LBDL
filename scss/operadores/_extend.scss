@@ -1,0 +1,25 @@
+%margin-decoration {
+    margin: 1rem;
+    text-decoration: none;
+}
+
+%estilo-titulos {
+    font-family: "theboldfont";
+    font-size: 1.75rem;
+    padding: 1rem 1rem 1rem 0;
+    margin: 1rem 1rem 1rem 0;
+    text-decoration: none;
+}
+
+%propiedades-extra {
+    justify-content: flex-start;
+    font-family: "theboldfont";
+    color: #2E3E4A;
+    display: inline-block;
+    list-style: none;
+}
+
+%margin-decoration-2{
+    margin: 0;
+    text-decoration: none;
+}

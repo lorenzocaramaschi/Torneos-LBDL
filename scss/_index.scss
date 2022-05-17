@@ -1,3 +1,7 @@
+@import'operadores/extend';
+@import'operadores/mixin';
+@import'operadores/mapas';
+
 header {
     z-index: 10;
     position: sticky;
@@ -9,15 +13,11 @@ header {
         margin: 0 !important;
 
         .titulo-nav {
-            background-color: #AE84D9;
-            color: white;
-            display: flex;
-            align-items: center;
-            justify-content: flex-start;
-
+            background-color: map-get($color, rosa);
+            color: map-get($color, blanco);
+            @include flex(flex,flex-start,center);            
             a {
-                margin: 1rem 1rem 1rem 1rem;
-                text-decoration: none;
+                @extend %margin-decoration;
                 justify-content: flex-start;
 
                 img {}
@@ -26,11 +26,10 @@ header {
 
         div {
             .tipografia-nav {
-                font-family: "theboldfont";
-                color: white;
-                margin: 1rem 1rem 1rem 1rem;
+                @extend %margin-decoration;
+                font-family: map-get($font-family, font1);
+                color: map-get($color, blanco);
                 font-size: 1.5rem;
-                text-decoration: none;
                 justify-content: flex-end;
             }
         }
@@ -40,7 +39,7 @@ header {
 
 main {
     .fondo-index {
-        padding: 15rem 15rem 15rem 15rem;
+        padding: map-get($padding, p15);
         background-image: url("../imagenes/bgIndex.png");
         background-position: center center;
         background-repeat: no-repeat;
@@ -49,21 +48,18 @@ main {
         margin-bottom: -3.5rem !important;
 
         section {
-            font-family: "theboldfont";
-            color: #2E3E4A;
+            font-family: map-get($font-family, font1);
+            color: map-get($color, gris-oscuro);
             font-size: 4rem;
 
             h1 {
-                color: white;
+                color: map-get($color, blanco);
             }
 
             h3 {
-                font-family: "theboldfont";
-                color: white;
-                font-size: 1.75rem;
-                padding: 1rem 1rem 1rem 0;
-                margin: 1rem 1rem 1rem 0;
+                @extend %estilo-titulos;
                 text-decoration: none;
+                color: map-get($color, blanco);
             }
         }
     }
@@ -77,12 +73,12 @@ main {
             }
 
             a {
-                font-family: "theboldfont";
-                color: white;
+                font-family: map-get($font-family, font1);
+                color: map-get($color, blanco);
                 font-size: 1.5rem;
                 text-decoration: none;
                 background-image: linear-gradient(to right, #AE84D9, #613d85);
-                padding: 1rem 1rem 1rem 1rem;
+                padding: map-get($padding, p1);
                 text-align: center;
             }
         }
@@ -90,13 +86,11 @@ main {
 }
 
 footer {
-    display: flex;
-    background-color: #C3CFD9;
+    @include flex(flex,space-around,flex-end);    
+    background-color: map-get($color, blanco-2);
     list-style: none;
-    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
-    text-decoration: none;
-    align-items: flex-end;
-    justify-content: space-around;
+    padding: map-get($padding, p2);
+    text-decoration: none;       
     margin-top: 0;
 
     .image-footer-logo {
@@ -107,13 +101,9 @@ footer {
     }
 
     a {
-        font-family: "theboldfont";
-        color: #2E3E4A;
-        display: inline-block;
-        margin: 1rem 1rem 1rem 1rem;
+        margin: 0rem;
         text-decoration: none;
-        list-style: none;
-        justify-content: flex-start;
+        @extend %propiedades-extra;      
 
         .image-footer {
             height: 3rem;
@@ -121,15 +111,10 @@ footer {
         }
     }
 
-    a {
-        font-family: "theboldfont";
-        color: #2E3E4A;
-        display: inline-block;
+    a {        
         margin: 0rem;
         text-decoration: none;
-        list-style: none;
-        justify-content: flex-start;
-
+       
         .image-footer-yt {
             height: 3rem;
             width: 4rem;
@@ -137,13 +122,9 @@ footer {
     }
 
     ul {
-        font-family: "theboldfont";
-        color: #2E3E4A;
-        display: inline-block;
-        margin: 1rem 1rem 1rem 1rem;
-        text-decoration: none;
-        list-style: none;
-        justify-content: flex-start;
+        @extend %margin-decoration-2;
+        @extend %propiedades-extra;   
+        font-size: 1.1rem;   
     }
 
 }

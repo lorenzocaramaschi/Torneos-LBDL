@@ -1,21 +1,22 @@
+@import'operadores/mixin';
+@import'operadores/mapas';
+
 section {
 
     .accordion-button:not(.collapsed) {
-        color: #2e3e4a;
-        background-color: #ffffff;
+        color: map-get($color, gris-oscuro);
+        background-color:  map-get($color, blanco);
         box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
     }
 
     .historial {
         .info-club {
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
-            padding: 1rem;
+            @include flex(flex,flex-start,center);            
+            padding: map-get($padding, p1);
 
             .titulo-secciones {
-                font-family: "theboldfont";
-                color: #2E3E4A;
+                font-family: map-get($font-family, font1);
+                color: map-get($color, gris-oscuro);
                 font-size: 3rem;
             }
         }
@@ -25,37 +26,35 @@ section {
         margin-bottom: 2rem;
         .equipo-rival {
             list-style: none;
-            font-family: "theboldfont";
-            color: #2E3E4A;
+            font-family: map-get($font-family, font1);
+            color: map-get($color, gris-oscuro);
             font-size: 1rem;
 
             .titulo-rival {
-                display: flex;
-                justify-content: flex-start;
-                align-items: center;
+                @include flex(flex,flex-start,center);                
             }
         }
     }
 
     .subtitulo-equipos {
-        font-family: "theboldfont";
-        color: #2E3E4A;
+        font-family: map-get($font-family, font1);
+        color: map-get($color, gris-oscuro);
         font-size: 1.75rem;
         padding: 1rem;
         margin: 1rem 1rem 1rem 0;
         text-decoration: none;
 
         .item-lista-torneos {
-            font-family: "theboldfont";
+            font-family: map-get($font-family, font1);
             font-size: 1.25rem;
             list-style: square;
         }
     }
 
     .extra-animacion-equipos {
-        padding: 1rem;
+        padding: map-get($padding, p1);
         margin-left: 0rem;
-        background-color: #dfe6ed;
+        background-color:  map-get($color, gris);
 
         .animacion-boton {
             transition: 1s;
@@ -67,7 +66,7 @@ section {
             .boton {
                 font-size: 0.60rem;
                 text-decoration: none;
-                padding: 0.35rem 0.35rem 0.35rem 0.35rem;
+                padding: map-get($padding, p035);
                 text-align: center;
             }
         }

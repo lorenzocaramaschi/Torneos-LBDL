@@ -1,3 +1,29 @@
+header nav div .tipografia-nav, header nav .titulo-nav a {
+  margin: 1rem;
+  text-decoration: none;
+}
+
+section h2, main section h3, .fondo-secciones section p, main .fondo-index section h3 {
+  font-family: "theboldfont";
+  font-size: 1.75rem;
+  padding: 1rem 1rem 1rem 0;
+  margin: 1rem 1rem 1rem 0;
+  text-decoration: none;
+}
+
+footer ul, footer a {
+  justify-content: flex-start;
+  font-family: "theboldfont";
+  color: #2E3E4A;
+  display: inline-block;
+  list-style: none;
+}
+
+footer ul {
+  margin: 0;
+  text-decoration: none;
+}
+
 header {
   z-index: 10;
   position: sticky;
@@ -11,25 +37,21 @@ header nav .titulo-nav {
   background-color: #AE84D9;
   color: white;
   display: flex;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
 }
 header nav .titulo-nav a {
-  margin: 1rem 1rem 1rem 1rem;
-  text-decoration: none;
   justify-content: flex-start;
 }
 header nav div .tipografia-nav {
   font-family: "theboldfont";
   color: white;
-  margin: 1rem 1rem 1rem 1rem;
   font-size: 1.5rem;
-  text-decoration: none;
   justify-content: flex-end;
 }
 
 main .fondo-index {
-  padding: 15rem 15rem 15rem 15rem;
+  padding: 15rem;
   background-image: url("../imagenes/bgIndex.png");
   background-position: center center;
   background-repeat: no-repeat;
@@ -46,12 +68,8 @@ main .fondo-index section h1 {
   color: white;
 }
 main .fondo-index section h3 {
-  font-family: "theboldfont";
-  color: white;
-  font-size: 1.75rem;
-  padding: 1rem 1rem 1rem 0;
-  margin: 1rem 1rem 1rem 0;
   text-decoration: none;
+  color: white;
 }
 main article .animacion-boton {
   transition: 1s;
@@ -65,18 +83,18 @@ main article .animacion-boton a {
   font-size: 1.5rem;
   text-decoration: none;
   background-image: linear-gradient(to right, #AE84D9, #613d85);
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 1rem;
   text-align: center;
 }
 
 footer {
   display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
   background-color: #C3CFD9;
   list-style: none;
-  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+  padding: 2rem;
   text-decoration: none;
-  align-items: flex-end;
-  justify-content: space-around;
   margin-top: 0;
 }
 footer .image-footer-logo {
@@ -84,39 +102,23 @@ footer .image-footer-logo {
   width: 9rem;
 }
 footer a {
-  font-family: "theboldfont";
-  color: #2E3E4A;
-  display: inline-block;
-  margin: 1rem 1rem 1rem 1rem;
+  margin: 0rem;
   text-decoration: none;
-  list-style: none;
-  justify-content: flex-start;
 }
 footer a .image-footer {
   height: 3rem;
   width: 3rem;
 }
 footer a {
-  font-family: "theboldfont";
-  color: #2E3E4A;
-  display: inline-block;
   margin: 0rem;
   text-decoration: none;
-  list-style: none;
-  justify-content: flex-start;
 }
 footer a .image-footer-yt {
   height: 3rem;
   width: 4rem;
 }
 footer ul {
-  font-family: "theboldfont";
-  color: #2E3E4A;
-  display: inline-block;
-  margin: 1rem 1rem 1rem 1rem;
-  text-decoration: none;
-  list-style: none;
-  justify-content: flex-start;
+  font-size: 1.1rem;
 }
 
 * {
@@ -137,8 +139,34 @@ ul {
   list-style: none;
 }
 
+header nav .titulo-nav a, header nav div .tipografia-nav {
+  margin: 1rem;
+  text-decoration: none;
+}
+
+section h2, main section h3, .fondo-secciones section p, main .fondo-index section h3 {
+  font-family: "theboldfont";
+  font-size: 1.75rem;
+  padding: 1rem 1rem 1rem 0;
+  margin: 1rem 1rem 1rem 0;
+  text-decoration: none;
+}
+
+footer a, footer ul {
+  justify-content: flex-start;
+  font-family: "theboldfont";
+  color: #2E3E4A;
+  display: inline-block;
+  list-style: none;
+}
+
+footer ul {
+  margin: 0;
+  text-decoration: none;
+}
+
 .fondo-secciones {
-  padding: 3rem 3rem 3rem 3rem;
+  padding: 3rem;
   background-color: #DFE6ED;
   display: flex;
   flex-direction: column;
@@ -149,12 +177,7 @@ ul {
   font-size: 3rem;
 }
 .fondo-secciones section p {
-  font-family: "theboldfont";
   color: #2E3E4A;
-  font-size: 1.75rem;
-  padding: 1rem 1rem 1rem 0;
-  margin: 1rem 1rem 1rem 0;
-  text-decoration: none;
 }
 .fondo-secciones section .animacion-boton {
   transition: 1s;
@@ -168,7 +191,7 @@ ul {
   font-size: 1.5rem;
   text-decoration: none;
   background-image: linear-gradient(to right, #AE84D9, #613d85);
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 1rem;
   text-align: center;
 }
 
@@ -201,13 +224,34 @@ table tbody tr td {
   background-color: #C3CFD9;
 }
 
-main section h3 {
+header nav .titulo-nav a, header nav div .tipografia-nav {
+  margin: 1rem;
+  text-decoration: none;
+}
+
+section h2, main section h3, main .fondo-index section h3, .fondo-secciones section p {
   font-family: "theboldfont";
-  color: #2E3E4A;
   font-size: 1.75rem;
   padding: 1rem 1rem 1rem 0;
   margin: 1rem 1rem 1rem 0;
   text-decoration: none;
+}
+
+footer a, footer ul {
+  justify-content: flex-start;
+  font-family: "theboldfont";
+  color: #2E3E4A;
+  display: inline-block;
+  list-style: none;
+}
+
+footer ul {
+  margin: 0;
+  text-decoration: none;
+}
+
+main section h3 {
+  color: #2E3E4A;
 }
 
 .contenedor {
@@ -244,26 +288,47 @@ main section h3 {
   font-size: 20px;
 }
 
-.texto-parrafo {
-  color: #2E3E4A;
-  font-size: 1rem;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  padding: 0 0 1.66rem 0;
-  margin: 0;
+header nav .titulo-nav a, header nav div .tipografia-nav {
+  margin: 1rem;
+  text-decoration: none;
 }
 
-section h2 {
+section h2, main .fondo-index section h3, .fondo-secciones section p, main section h3 {
   font-family: "theboldfont";
-  color: #2E3E4A;
   font-size: 1.75rem;
   padding: 1rem 1rem 1rem 0;
   margin: 1rem 1rem 1rem 0;
   text-decoration: none;
 }
 
+footer a, footer ul {
+  justify-content: flex-start;
+  font-family: "theboldfont";
+  color: #2E3E4A;
+  display: inline-block;
+  list-style: none;
+}
+
+footer ul {
+  margin: 0;
+  text-decoration: none;
+}
+
+.texto-parrafo {
+  color: #2E3E4A;
+  font-size: 1rem;
+  font-family: "Segoe UI";
+  padding: 0 0 1.66rem 0;
+  margin: 0;
+}
+
+section h2 {
+  color: #2E3E4A;
+}
+
 section .accordion-button:not(.collapsed) {
-  color: #2e3e4a;
-  background-color: #ffffff;
+  color: #2E3E4A;
+  background-color: white;
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.13);
 }
 section .historial .info-club {
@@ -307,7 +372,7 @@ section .subtitulo-equipos .item-lista-torneos {
 section .extra-animacion-equipos {
   padding: 1rem;
   margin-left: 0rem;
-  background-color: #dfe6ed;
+  background-color: #DFE6ED;
 }
 section .extra-animacion-equipos .animacion-boton {
   transition: 1s;
@@ -318,7 +383,7 @@ section .extra-animacion-equipos .animacion-boton:hover {
 section .extra-animacion-equipos .animacion-boton .boton {
   font-size: 0.6rem;
   text-decoration: none;
-  padding: 0.35rem 0.35rem 0.35rem 0.35rem;
+  padding: 0.35rem;
   text-align: center;
 }
 
@@ -489,5 +554,30 @@ section .extra-animacion-equipos .animacion-boton .boton {
 }
 /* desktop */
 /* #endregion */
+header nav .titulo-nav a, header nav div .tipografia-nav {
+  margin: 1rem;
+  text-decoration: none;
+}
+
+main .fondo-index section h3, .fondo-secciones section p, main section h3, section h2 {
+  font-family: "theboldfont";
+  font-size: 1.75rem;
+  padding: 1rem 1rem 1rem 0;
+  margin: 1rem 1rem 1rem 0;
+  text-decoration: none;
+}
+
+footer a, footer ul {
+  justify-content: flex-start;
+  font-family: "theboldfont";
+  color: #2E3E4A;
+  display: inline-block;
+  list-style: none;
+}
+
+footer ul {
+  margin: 0;
+  text-decoration: none;
+}
 
 /*# sourceMappingURL=style.css.map */

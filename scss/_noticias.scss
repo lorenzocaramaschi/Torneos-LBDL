@@ -1,45 +1,43 @@
+@import'operadores/extend';
+@import'operadores/mapas';
 
-    .fondo-secciones {
-        padding: 3rem 3rem 3rem 3rem;
-        background-color: #DFE6ED;
-        display: flex;
-        flex-direction: column;
+.fondo-secciones {
+    padding: map-get($padding, p3);
+    background-color: map-get($color, gris);
+    display: flex;
+    flex-direction: column;
 
 
-        section {
-            h1 {
-                font-family: "theboldfont";
-                color: #2E3E4A;
-                font-size: 3rem;
-            }
-
-            p {
-                font-family: "theboldfont";
-                color: #2E3E4A;
-                font-size: 1.75rem;
-                padding: 1rem 1rem 1rem 0;
-                margin: 1rem 1rem 1rem 0;
-                text-decoration: none;
-            }
+    section {
+        h1 {
+            font-family: map-get($font-family, font1);
+            color: map-get($color, gris-oscuro);
+            font-size: 3rem;
         }
 
-        section {
-            .animacion-boton {
-                transition: 1s;
+        p {
+            @extend %estilo-titulos;
+            color: map-get($color, gris-oscuro);
+        }
+    }
 
-                &:hover {
-                    transform: scale(0.97);
-                }
+    section {
+        .animacion-boton {
+            transition: 1s;
 
-                a {
-                    font-family: "theboldfont";
-                    color: white;
-                    font-size: 1.5rem;
-                    text-decoration: none;
-                    background-image: linear-gradient(to right, #AE84D9, #613d85);
-                    padding: 1rem 1rem 1rem 1rem;
-                    text-align: center;
-                }
+            &:hover {
+                transform: scale(0.97);
+            }
+
+            a {
+                font-family: map-get($font-family, font1);
+                color: map-get($color, blanco);
+                font-size: 1.5rem;
+                text-decoration: none;
+                background-image: linear-gradient(to right, #AE84D9, #613d85);
+                padding: map-get($padding, p1);
+                text-align: center;
             }
         }
     }
+}
