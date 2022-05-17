@@ -1,0 +1,8 @@
+Para el SEO tomé las siguientes decisiones:
+1- Complete los alt de todas las imagenes (solamente faltan las del apartado de cada equipo en historiales)
+2- Puse una descripción (meta name description) para cada html, el cual contenía 180 carácteres aproximadamente, cantidad recomendada por expertos en SEO.
+3- Agregue keywords a cada html (meta name keywords). En todos están los mismos keywords, solo que en algunos de los html's agregué algunos más para referenciar el contenido de cada página (Usé Google Trends para buscar la mayoría de las keywords, excepto las refernciales como nombres de jugadores)
+4- Todavía no agregué contenido de "og:" porque estoy esperando a tener la página subida al servidor primero
+5- Modifiqué el título de cada html (meta name title) según los carácteres que me recomendo la profe
+6- Me asegure de que haya 1 "h1" por html
+7- Y finalmente dejé el icono (meta name favicon) de la página en todos los html's
