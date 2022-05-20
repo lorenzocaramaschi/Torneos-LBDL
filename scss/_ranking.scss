@@ -33,6 +33,10 @@ table {
                 color: map-get($color, gris-oscuro);
                 border: solid 0.10rem #2E3E4A;
                 background-color: map-get($color, blanco-2);
+
+                @media (max-width: 556px) {
+                    font-size: 0.64rem;
+                }
             }
         }
     }

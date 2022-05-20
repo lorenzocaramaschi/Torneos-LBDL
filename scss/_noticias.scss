@@ -19,6 +19,22 @@
             font-size: 3rem;
         }
 
+        .noticia {
+            width: 50%;
+            min-height: 25rem;
+            resize: none;
+            border: solid 0.25rem #2e3e4a;
+
+            @media (max-width: 450px) {
+                min-height: 15rem;
+                width: 100%;
+            }
+
+            @media (min-width:451px) and (max-width: 960px) {
+                width: 70%;
+            }
+        }
+
         p {
             @extend %estilo-titulos;
             color: map-get($color, gris-oscuro);
